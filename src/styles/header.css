@@ -1,0 +1,36 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 50px;
+}
+
+.Header_logo {
+    width: 210px;
+    height: 68px;
+}
+
+.Header_nav {
+    display: flex;
+    align-items: center;
+    width: 309px;
+}
+
+.Header_nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Header_link {
+    width: 45%;
+    text-align: right;
+}
+
+.Header_link a {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}

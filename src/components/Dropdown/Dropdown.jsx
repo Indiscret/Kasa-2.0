@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import '../../styles/dropdown.css';
 
 function Dropdown({ title, content }) {
     const [isOpen, setIsOpen] = useState(false);
