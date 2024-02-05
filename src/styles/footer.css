@@ -15,3 +15,10 @@
     color: #fff;
     font-size: 24px;
 }
+
+@media screen and (max-width: 767px) {
+
+    .Footer_copyright {
+        font-size: 12px;
+    }
+}

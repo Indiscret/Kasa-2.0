@@ -1,0 +1,167 @@
+.Lodgings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lodgings_contain {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+}
+
+.Lodgings_title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ff6060;
+}
+
+.Lodgings_location {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0 20px;
+}
+
+.Lodgings_location_tags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.Lodgings_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ff6060;
+    color: #fff;
+    border-radius: 20px;
+    height: 25px;
+    padding: 0 17px;
+    margin-right: 10px;
+}
+
+.Host_contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Host {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Host_list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.Host_name {
+    width: 93px;
+    font-size: 18px;
+    color: #ff6060;
+    font-weight: 500;
+    margin: 0 10px 0;
+    text-align: right;
+}
+
+.Host_img {
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
+}
+
+.Rating {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.Full_rating_star {
+    color: #ff6060;
+    padding-left: 9px;
+}
+
+.Empty_rating_star {
+    color: #e3e3e3;
+    padding-left: 9px;
+}
+
+.Dropdown_lodgings {
+    display: flex;
+    column-gap: 76px;
+}
+
+.Dropdown {
+    width: 100%;
+}
+
+.Dropdown_btn {
+    font-size: 18px;
+    font-weight: 500;
+    height: 52px;
+    border-radius: 10px;
+}
+
+.Dropdown_equipement {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 991px) {
+
+    .Lodgings {
+        flex-direction: column;
+    }
+
+    .Host_contain {
+        flex-direction: row-reverse;
+    }
+
+    .Rating {
+        margin-left: 0;
+    }
+
+    .Dropdown_lodgings {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .Lodgings_contain {
+        margin: 0;
+    }
+
+    .Lodgings_title {
+        font-size: 18px;
+    }
+
+    .Lodgings_location {
+        font-size: 14px;
+    }
+
+    .Lodgings_tag {
+        margin-bottom: 10px;
+    }
+
+    .Host_name {
+        font-size: 15px;
+    }
+
+    .Host_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Rating {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .Rating_star {
+        width: 14px;
+        padding-left: 0;
+    }
+}

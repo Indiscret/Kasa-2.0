@@ -6,7 +6,7 @@ import '../../styles/dropdown.css';
 function Dropdown({ title, content }) {
     const [isOpen, setIsOpen] = useState(false);
     return isOpen ? (
-        <div className="Dropdwon">
+        <div className="Dropdown">
             <button className="Dropdown_btn" onClick={() => setIsOpen(false)}>
                 {title}
                 <FontAwesomeIcon className="Dropdown_open" icon={faChevronUp} />

@@ -1,0 +1,99 @@
+.Carousel {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.content {
+    margin: 0 40px;
+}
+
+.Carousel_number {
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 24px;
+    height: 32px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.Carousel_img {
+    width: 100%;
+    object-fit: cover;
+    height: 415px;
+    border-radius: 25px;
+}
+
+.Left_arrow {
+    color: #fff;
+    position: absolute;
+    left: 23px;
+    bottom: 179px;
+    width: 46.5px;
+    height: 79px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+.Right_arrow {
+    color: #fff;
+    position: absolute;
+    right: 23px;
+    bottom: 179px;
+    width: 46.5px;
+    height: 79px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+
+@media screen and (max-width: 991px) {
+
+
+    .Left_arrow {
+        width: 20px;
+        height: 34px;
+        position: absolute;
+        bottom: 193px;
+    }
+
+    .Right_arrow {
+        width: 20px;
+        height: 34px;
+        position: absolute;
+        bottom: 193px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .Carousel_img {
+        border-radius: 10px;
+        height: 255px;
+    }
+
+    .Carousel_number {
+        font-size: 14px;
+    }
+
+    .Left_arrow {
+        width: 12px;
+        height: 20px;
+        position: absolute;
+        bottom: 127.5px;
+        left: 12px;
+    }
+
+    .Right_arrow {
+        width: 12px;
+        height: 20px;
+        position: absolute;
+        bottom: 127.5px;
+        right: 12px;
+    }
+}

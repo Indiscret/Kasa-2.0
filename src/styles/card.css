@@ -41,3 +41,22 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 991px) {
+    
+    .Card_contain {
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .Card_contain {
+        row-gap: 20px;
+    }
+
+    .Lodgings_card {
+        width: 335px;
+        height: 255px;
+    }
+}

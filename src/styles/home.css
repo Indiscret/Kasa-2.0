@@ -5,3 +5,17 @@
     margin: 40px auto;
     padding: 56px 50px;
 }
+
+@media screen and (max-width: 991px) {
+
+    .Card {
+        padding: 36px 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .Card {
+        padding: 28px 25px;
+    }
+}
